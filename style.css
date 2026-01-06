@@ -1,0 +1,42 @@
+@font-face { 
+    font-family: "Adam-Light"; 
+    src: url(fontes/Adam-Light.ttf);
+}
+
+header, footer {
+    display: none;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.secao--entrada {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.conteudo {
+    font-family: "Adam-Light", sans-serif;
+    font-size: 35pt;
+    color: #d4d4d4;
+
+   text-align: center;
+   z-index: 2;
+}
+
+.imagem-principal{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+
+    object-fit: contain;
+    pointer-events: none;
+}
