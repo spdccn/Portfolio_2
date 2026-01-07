@@ -70,7 +70,7 @@ html, body{
     overflow: hidden;
 
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .imagem-principal{
