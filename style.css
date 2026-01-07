@@ -1,14 +1,34 @@
-/* COMANDO PARA ALTERAR TODO O ARQUIVO: */
-/* *{
-
-} */
-
 @font-face { 
     font-family: "Adam-Light"; 
     src: url(fontes/Adam-Light.ttf);
 }
 
-header, footer {
+.header {
+    font-family: "Adam-Light";
+    font-size: 15pt;
+    color: #d4d4d4;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: #d4d4d4;
+    font-family: "Adam-Light";
+    font-size: 20pt;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+}
+
+footer {
     display: none;
 }
 
@@ -25,6 +45,10 @@ body{
 
 
 .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     font-family: "Adam-Light", sans-serif;
     font-size: 35pt;
     color: #d4d4d4;
