@@ -79,3 +79,8 @@ html, body{
     display: block;
     pointer-events: none;
 }
+
+.map {
+  width: 100%;
+  height: calc(100vh - 70px); /* desconta o header */
+}

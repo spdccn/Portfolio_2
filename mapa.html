@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mapa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa | spdccn</title>
+
+  <!-- CSS do site -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- CSS do OpenLayers -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css"
+  />
 </head>
 <body>
-    <h1>página do mapa</h1>
-    <p>conteúdo do mapa</p>
-    <a href="index.html">voltar</a>
+
+  <header class="header">
+    <nav class="menu">
+      <button class="nav-btn" data-url="index.html">início</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Container do mapa -->
+    <div id="map" class="map"></div>
+  </main>
+
+  <!-- JS do site (navegação) -->
+  <script src="main.js"></script>
+
+  <!-- JS do OpenLayers -->
+  <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+
+  <!-- JS do mapa -->
+  <script src="mapa.js"></script>
+
 </body>
 </html>
